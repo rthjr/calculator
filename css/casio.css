@@ -1,0 +1,58 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.back a{
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.casio-title{
+    padding: 2rem;
+}
+
+.row{
+    gap: 3rem;
+}
+
+.border-casio{
+    padding: 2rem;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.text{
+    width: 100%;
+    height: 6vh;
+    background-color: white;
+    border-radius: 2rem;
+    border: solid black 1px;
+}
+
+.f-l{
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.f-col{
+    gap: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .f-l{
+        padding: 1rem;
+        border-radius: 1rem;
+        margin: 1rem;
+    }
+}
